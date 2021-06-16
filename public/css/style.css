@@ -1,0 +1,50 @@
+/* Estilos boton GUARDAR*/
+body {
+  background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 30px;
+font-size: large;
+}
+
+h4{
+  text-align: center;
+  font-size: xx-large;
+}
+.container{
+background-color: #6A82FB;
+font-family: 'Lato', sans-serif;
+padding: 30px;
+
+}
+.control {
+  background-color: #6A82FB;
+}
+
+.btn-guardar{
+    width: 100%;
+    padding: 15px;
+    background-color: #20c997;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 25px;
+    
+  }
+  .btn-guardar:hover,.btn-guardar:active{
+    
+    background-color: #13795b;
+    border-color:#13795b;
+  }
+  .btn-guardar:focus{
+    box-shadow:0 0 0 3px rgba(121,82,179,0.25)
+  }
+  #tablaAlumnos{
+    border-color: black;
+  }
+  footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
